@@ -37,6 +37,7 @@ Aliases
 
   - `azr` is short for `az repos`
   - `azrr` list repositories
+  - `azrR` create repository
   - `azrp` list pull requests
   - `azrP` create pull request
 
