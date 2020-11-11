@@ -20,10 +20,6 @@ azdl
 
 Aliases
 -------
-### Configure
-
-  - `azct` configure default table output
-  - `azcj` configure default json output
 
 ### Azure DevOps
 
