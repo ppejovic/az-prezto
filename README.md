@@ -1,22 +1,23 @@
-az  
-=== 
+azure-devops
+============
 
-Defines [Azure CLI][1] aliases and functions.   
+Defines [Azure CLI][1] aliases and functions for the [azure-devops][2] extension.
 
-Aliases     
-------- 
+Aliases
+-------
 
-### Azure DevOps    
+### Azure DevOps
 
   - `azd` is short for `az devops`
 
-### Azure Repos   
+### Azure Repos
 
-  - `azr` is short for `az repos` 
+  - `azr` is short for `az repos`
 
-Functions   
----------   
+Functions
+---------
 
-  - `azr-pr-create` Creates a PR    
+  - `azr-pr-create` Creates a PR
 
 [1]: https://docs.microsoft.com/en-us/cli/azure
+[2]: https://docs.microsoft.com/en-us/cli/azure/ext/azure-devops/

@@ -6,7 +6,7 @@
 #
 
 # Return if requirements are not found
-if (( ! $+commands[az] )); then
+if (( ! $+commands[az] )) || ! az extension show --name azure-devops > /dev/null 2>&1; then
   return 1
 fi
 
