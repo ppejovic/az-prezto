@@ -17,4 +17,7 @@ alias azdL='az devops logout'
 alias azdp='az devops project list'
 
 alias azr='az repos'
-alias azrl='az repos list'
+alias azrr='az repos list'
+
+alias azrp='az repos pr list'
+alias azrP='az repos pr create'

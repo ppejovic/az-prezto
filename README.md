@@ -36,13 +36,15 @@ Aliases
 ### Azure Repos
 
   - `azr` is short for `az repos`
-  - `azrl` list repositories
+  - `azrr` list repositories
+  - `azrp` list pull requests
+  - `azrP` create pull request
 
 
 Functions
 ---------
 
-  - `azr-pr-create` Creates a PR with a title
+  - `azr-pr-create` Creates a PR with a title (`-d` create as draft, `-o` open in browser)
 
 [1]: https://github.com/sorin-ionescu/prezto
 [2]: https://docs.microsoft.com/en-us/cli/azure
