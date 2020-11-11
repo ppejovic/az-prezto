@@ -22,7 +22,7 @@ Aliases
 Functions
 ---------
 
-  - `azr-pr-create` Creates a PR
+  - `azr-pr-create` Creates a PR with a title
 
 [1]: https://github.com/sorin-ionescu/prezto
 [2]: https://docs.microsoft.com/en-us/cli/azure
