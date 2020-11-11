@@ -18,14 +18,12 @@ Then login, providing your PAT
 azdl
 ```
 
-The module exports an enviroment variable `$AZ_OUTPUT_FMT` with a value of `table`. This provides a default value for the output format of the commands and can be changed to any of the supported values, currently: 
-
-```
-json, jsonc, none, table, tsv, yaml, yamlc
-```
-
 Aliases
 -------
+### Configure
+
+  - `azct` configure default table output
+  - `azcj` configure default json output
 
 ### Azure DevOps
 
