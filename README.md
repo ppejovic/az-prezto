@@ -21,12 +21,17 @@ azdl
 Aliases
 -------
 
+### Configure
+
+  - `azc` is short for `az configure`
+
 ### Azure DevOps
 
   - `azd` is short for `az devops`
   - `azdc` configure
   - `azdl` login
   - `azdL` logout
+  - `azdp` list projects
 
 ### Azure Repos
 
