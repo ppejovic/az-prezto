@@ -10,4 +10,8 @@
 #
 
 alias azd='az devops'
+alias azdc='az devops configure'
+alias azdl='az devops login'
+alias azdL='az devops logout'
+
 alias azr='az repos'
