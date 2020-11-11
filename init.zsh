@@ -10,5 +10,7 @@ if (( ! $+commands[az] )) || ! az extension show --name azure-devops > /dev/null
   return 1
 fi
 
+export AZ_OUTPUT_FMT=table
+
 # Source module files
 source "${0:h}/alias.zsh"
