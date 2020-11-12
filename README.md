@@ -40,12 +40,7 @@ Aliases
   - `azrR` create repository
   - `azrp` list pull requests
   - `azrP` create pull request
-
-
-Functions
----------
-
-  - `azr-pr-create` Creates a PR with a title (`-d` create as draft, `-o` open in browser)
+  - `azrPt` create pull request with title
 
 [1]: https://github.com/sorin-ionescu/prezto
 [2]: https://docs.microsoft.com/en-us/cli/azure

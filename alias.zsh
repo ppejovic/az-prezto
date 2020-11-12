@@ -22,3 +22,4 @@ alias azrR='az repos create'
 
 alias azrp='az repos pr list'
 alias azrP='az repos pr create'
+alias azrPt='az repos pr create --title'
