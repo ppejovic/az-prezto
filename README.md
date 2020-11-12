@@ -27,6 +27,11 @@ Aliases
   - `azrP` create pull request
   - `azrPt` create pull request with title
 
+Functions
+---------
+
+  - `azr-pr-show` show the active PR for this branch in browser
+  
 [1]: https://github.com/sorin-ionescu/prezto
 [2]: https://docs.microsoft.com/en-us/cli/azure
 [3]: https://docs.microsoft.com/en-us/cli/azure/ext/azure-devops/
