@@ -3,21 +3,6 @@ azure-devops
 
 [Prezto][1] module for defining aliases and functions for the [Azure CLI][2] [azure-devops][3] extension.
 
-Usage
-=====
-
-First configure some sensible defaults for the cli
-
-```sh
-azdc --defaults organization=https://dev.azure.com/my-org project=my-project
-```
-
-Then login, providing your PAT
-
-```sh
-azdl
-```
-
 Aliases
 -------
 
