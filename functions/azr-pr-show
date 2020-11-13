@@ -7,19 +7,23 @@
 #function azr-pr-show {
     
   if ! git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
-    printf "Not in a git repository" >&2
+    printf "Not in a git repository." >&2
     return 1
   fi
 
   branch="$(git branch --show-current)"
 
-  id="$(az repos pr list -o json -s "${branch}" --query '[].pullRequestId | [0]')" # Naively get first PR
-  
-  if [ -n "${id}" ]; then
-    az repos pr show -o none --open --id "${id}"
+  if id="$(az repos pr list -o json -s "${branch}" --query '[].pullRequestId | [0]' 2>/dev/null)"; then # Naively get first PR
+    if [ -n "${id}" ]; then
+      az repos pr show -o none --open --id "${id}"
+      return 0
+    else
+      printf "No active PRs for this branch." >&2
+    fi
   else
-    printf "No active PRs for this branch" >&2
-    return 1
+    printf "Command failed. Are you in an Azure Repos repository?"
   fi
+
+  return 1
 
 #}
